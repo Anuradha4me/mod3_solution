@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+.cat {
+    background-color: gainsboro;
+    border-color: black;
+    border: 3px solid black;
+    margin: 10px;
+    float: left;
+    width: 30%;
+    height: 250px;
+}
+
+.inDiv {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.subhead {
+    margin-top: 0px;
+    padding: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+@media(min-width:992px) {
+    #fish {
+        width: 30%;
+    }
+
+    #mut {
+        width: 30%;
+    }
+
+    #chick {
+        width: 30%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #chick {
+        width: 45%;
+    }
+
+    #mut {
+        width: 45%;
+
+    }
+
+    #fish {
+        width: 45%;
+    }
+
+    .cat {
+        height: 220px;
+    }
+}
+
+@media(max-width:767px) {
+    #chick {
+        width: 100%;
+    }
+
+    #mut {
+        width: 100%;
+    }
+
+    #fish {
+        width: 100%;
+    }
+
+    .cat {
+        height: 200Px;
+    }
+}
+
+#lchick {
+    background-color: pink;
+}
+
+#lmut {
+    background-color: turquoise;
+}
+
+#lfish {
+    background-color: yellowgreen;
+}
+
+.menu {
+    text-align: center;
+}
+
+.top {
+    text-align: right;
+}
